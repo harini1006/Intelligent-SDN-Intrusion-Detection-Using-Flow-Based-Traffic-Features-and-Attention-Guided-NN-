@@ -171,7 +171,9 @@ Database: SQLite
 • Role-based authentication and improved UI
 
 ## Author
+
 Harini V
+
 B.Tech – Artificial Intelligence and Data Science
 
 
