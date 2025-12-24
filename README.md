@@ -79,9 +79,12 @@ To overcome these challenges, a Machine Learning–based IDS that efficiently an
 
 • View all user predictions
 
-•Attack distribution charts
+• Attack distribution analytics
 
-• Traffic analysis dashboard
+• Centralized Traffic monitoring dashboard
+
+• Receive real-time alert emails
+
 
 ### ML Features:
 
@@ -94,7 +97,8 @@ To overcome these challenges, a Machine Learning–based IDS that efficiently an
 • Model saved and deployed using pickle
 
 ## 🧩System Architecture:
-<img width="734" height="492" alt="image" src="https://github.com/user-attachments/assets/54bc34b2-eb2f-43e1-9099-9a53fe73228d" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c0dae682-713e-493a-85a9-08317da7984e" />
+
 
 ## 🗂Modules:
 ### Data Preprocessing
@@ -123,7 +127,7 @@ To overcome these challenges, a Machine Learning–based IDS that efficiently an
 
 • Confusion Matrix
 
-The Random Forest Classifier built using Scikit-learn achieved the highest performance (91%).
+The Random Forest classifier achieved the highest performance with 91% accuracy and was selected for deployment.
 
 ### Web Application
 
@@ -131,17 +135,20 @@ The Random Forest Classifier built using Scikit-learn achieved the highest perfo
 
 • Login/Register
 
-• Single flow input
+• Single flow prediction
 
-• CSV upload
+•  Bulk CSV Prediction
 
-• History view
+• Prediction history
 
 Admin Interface includes:
 
 • Complete prediction logs
 
 • Graphical attack analytics
+
+• Real-time email alerts
+
 
 ## 🛠Tech Stack
 
@@ -153,39 +160,59 @@ Machine Learning: Python, Scikit-learn, Pandas, NumPy
 
 Database: SQLite
 
+Visualization: Matplotlib
+
+Alerts: SMTP (Email Service)
+
 ## Output:
+### Registration Page:
+<img width="1600" height="804" alt="image" src="https://github.com/user-attachments/assets/8bdb59e2-15d5-4621-9a2e-6a2bc4b850ae" />
+
 ### Login Page:
-<img width="738" height="408" alt="image" src="https://github.com/user-attachments/assets/35e723b6-d865-4422-ac82-60ca9b95ae3f" />
+<img width="1600" height="801" alt="image" src="https://github.com/user-attachments/assets/9ef17f6f-eead-4f97-9364-b868d5b9c11c" />
 
-### Home Page:
-<img width="1853" height="884" alt="image" src="https://github.com/user-attachments/assets/fb292ed8-6a4a-41c8-920d-39919f4c60db" />
+### Employee (User) Dashboard:
+<img width="1600" height="816" alt="image" src="https://github.com/user-attachments/assets/3a43c699-e5aa-4f3f-aa61-976a4d81c151" />
 
-### Prediction Result:
-<img width="921" height="512" alt="image" src="https://github.com/user-attachments/assets/28f04f5b-4ba5-4bdc-882a-185f1c3ae488" />
+### Single Flow Prediction Page:
+<img width="1600" height="814" alt="image" src="https://github.com/user-attachments/assets/8d17586f-be9e-4575-a358-ee0f1c22467d" />
+
+### CSV Upload & Bulk Prediction Result:
+<img width="1600" height="818" alt="image" src="https://github.com/user-attachments/assets/7393afc2-a8fc-4f7e-b533-00072aac9c67" />
 
 ### Admin Dashboard:
-<img width="953" height="522" alt="image" src="https://github.com/user-attachments/assets/f5ff4579-6544-4c5e-b00f-bdbe3b746209" />
+<img width="1600" height="808" alt="image" src="https://github.com/user-attachments/assets/e23a617b-44b8-4c35-a04d-f8b4af0260f6" />
+
+### Prediction History and Log Records:
+<img width="1600" height="625" alt="image" src="https://github.com/user-attachments/assets/19c87b6f-c5a9-4452-9bba-1b00840d3ab1" />
+
+### Real-Time Email Alert for Detected Attack:
+<img width="1600" height="810" alt="image" src="https://github.com/user-attachments/assets/abb8512a-ffa9-4fef-b3a5-00a07b25b2af" />
 
 ## 📊Results:
 • Achieved 91% accuracy using Random Forest
 
-• Accurate classification of multiple attack types
+• Accurate detection of multiple attack types
 
 • User- and admin-friendly web interface
 
-• Analytical dashboard for monitoring threats
+• Real-time alert notification on attack detection
+
+• Analytical dashboard for effective monitoring
 
 ## 🔮Future Enhancements:
 
-• Real-time detection using Kafka
+• Online and adaptive learning
 
-• Deep learning models (LSTM, CNN)
+• Multi-controller SDN support
 
-• Auto-blocking attacks via SDN controller integration
+• Automated attack mitigation via SDN controller rules
 
-• Cloud deployment (AWS, Azure)
+• Deployment on real SDN testbeds
 
-• Role-based authentication and improved UI
+• Cloud deployment (AWS / Azure)
+
+• Enhanced role-based authentication and UI
 
 ## Author
 
